@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <HashRouter>{isGameStarted ? <GamePlay /> : <StartGame toggle={toggleGamePlay} />}</HashRouter>
+  <> {isGameStarted ? <GamePlay /> : <StartGame toggle={toggleGamePlay} />}</>
   );
 }
 
